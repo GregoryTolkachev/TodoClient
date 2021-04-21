@@ -12,17 +12,16 @@
     "build-prod": "webpack --mode production",
     "watch": "webpack --mode production --watch"
   },
-  "dependencies": {},
   "devDependencies": {
-    "webpack": "^5.33.2",
-    "webpack-cli": "^4.6.0",
-    "babel-loader": "^8.2.2",
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.10.1",
     "css-loader": "^5.2.1",
-    "style-loader": "^2.0.0",
     "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.1",
-    "core-js": "^3.10.1"
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
   }
 }

@@ -1,3 +1,29 @@
+  
 {{#each this}}
-item
+<div class="task {{#if isComplete}} taske-complete{{/if}}" id="task-{{todoItemId}}">
+    <H1>
+            <div class="task-name">{{name}}</div>
+
+    </H1>
+    <div class="task-name">{{isComplete}}</div>
+    <div class="task-name">{{due}}</div>
+    <div class="task-name">{{dateTime}}</div>
+
+    
+    <div class="task-delete">
+        <button data-id="{{todoItemId}}">Delete</button>
+    </div>
+    {{#unless isComplete}}
+    <div class="task-complete">
+        <button data-id="{{todoItemId}}">Complete</button>
+    </div>
+    {{/unless}}
+        {{#unless isComplete}}
+    <div class="task-edit">
+        <button data-id="{{todoItemId}}">Edit</button>
+    </div>
+    {{/unless}}
+
+</div>
 {{/each}}
+

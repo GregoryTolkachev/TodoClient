@@ -2,3 +2,15 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.task{
+
+    border: reg(80,80,80) 4px solid;
+    margin: 4px;
+    width: 30vw;
+  }
+
+  .task-complete {
+    background-color: rgb(12, 16, 223);
+}
