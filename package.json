@@ -1,0 +1,28 @@
+{
+  "name": "empty-projectodolient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "watch": "webpack --mode production --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "css-loader": "^5.2.1",
+    "style-loader": "^2.0.0",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "core-js": "^3.10.1"
+  }
+}
