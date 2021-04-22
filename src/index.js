@@ -2,10 +2,21 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
 import './css/styles.css';
+import './css/animate.css';
+import './css/bootstrap.min.css';
+import './css/font-awesome.min.css';
+
+
+
+
+
 import TodoView from './hbs/TodoItemsTemplate.hbs';
 import TodoItems from './hbs/todoItems.hbs';
 
 import Todos from './js/todoApi';
+
+
+
 
 let app = document.getElementById('app');
 app.innerHTML = TodoView({
